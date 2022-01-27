@@ -1,0 +1,116 @@
+/* Write your global styles here, in PostCSS syntax */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/Roboto-Regular.tff") format("ttf");
+  }
+
+  @font-face {
+    font-family: "Assistant";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/Assistant-Regular.tff") format("ttf");
+  }
+
+  @font-face {
+    font-family: "Assistant";
+    font-style: normal;
+    font-weight: 600;
+    src: url("/fonts/Assistant-SemiBold.tff") format("ttf");
+  }
+
+  @font-face {
+    font-family: "Assistant";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/Assistant-Bold.tff") format("ttf");
+  }
+
+  @font-face {
+    font-family: "Assistant";
+    font-style: normal;
+    font-weight: 800;
+    src: url("/fonts/Assistant-ExtraBold.tff") format("ttf");
+  }
+
+  hr {
+    @apply border-faded;
+  }
+
+  .base-section {
+    @apply px-6;
+  }
+}
+
+.menu-item {
+  @apply font-assistant text-primary font-semibold;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+:root {
+  font-family: "Assistant", "Roboto", sans-serif;
+}
+
+h1,
+h2,
+p {
+  font-weight: 400;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+pre {
+  font-size: 16px;
+  font-family: var(--font-mono);
+  background-color: rgba(255, 255, 255, 0.45);
+  border-radius: 3px;
+  box-shadow: 2px 2px 6px rgb(255 255 255 / 25%);
+  padding: 0.5em;
+  overflow-x: auto;
+  color: var(--text-color);
+}
+
+input,
+button {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+
+@media (min-width: 720px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "menu": {
+    "booking": "Booking",
+    "payment": "Betaling",
+    "guide": "Rejseguide",
+    "help": "Få Hjælp"
+  },
+  "menu-desktop": {
+    "booking": "Min Booking",
+    "payment": "Betaling",
+    "guide": "RejseInformation",
+    "help": "FAQ",
+    "contact": "Kontakt os"
+  },
+  "payment": {
+    "paid": "Betalt",
+    "pay_now": "Betal nu",
+    "payment_deadline": "Seneste betaling"
+  }
+}

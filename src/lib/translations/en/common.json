@@ -1,0 +1,15 @@
+{
+  "menu": {
+    "booking": "Booking",
+    "payment": "Payment",
+    "guide": "Travel guide",
+    "help": "Get help"
+  },
+  "menu-desktop": {
+    "booking": "My booking",
+    "payment": "payment",
+    "guide": "Travel guide",
+    "help": "FAQ",
+    "contact": "Contact us"
+  }
+}
